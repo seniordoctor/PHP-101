@@ -1,0 +1,1 @@
+<?php $isim = "Recep"; echo $isim;
