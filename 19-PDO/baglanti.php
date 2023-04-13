@@ -1,9 +1,10 @@
 <?php
 // PDO
 
+//phpinfo();
 
 try {
-    $db = new PDO('mysql:host=localhost;','root', 'R3c3p!;');
+    $db = new PDO('mysql:host=localhost;','root', 'root');
     $db->query('USE test;');
     $db->query('SHOW DATABASES');
 }catch (PDOException $exception)
